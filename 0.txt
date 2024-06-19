@@ -3,7 +3,8 @@
       "version": "2012-10-17",
       "Statement": {
         "Effect": "Allow",
-        "Action": "sts:AssumeRole",
+        "Action": "sts:AssumeRole"
         "Resource": "arn:aws:iam::DEVELOPMENT-ACCOUNT-ACCOUNT-ID:role/UpdateApp"
       }
     }
+]
