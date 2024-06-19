@@ -1,9 +1,9 @@
 # cross account IAM role
     {
-      "": "2012-10-17",
+      "version": "2012-10-17",
       "Statement": {
         "Effect": "Allow",
         "Action": "sts:AssumeRole",
-        "Resource": "arn:aws:iam::PRODUCTION-ACCOUNT-ID:role/UpdateApp"
+        "Resource": "arn:aws:iam::DEVELOPMENT-ACCOUNT-ACCOUNT-ID:role/UpdateApp"
       }
     }
